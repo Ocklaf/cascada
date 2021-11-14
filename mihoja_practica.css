@@ -1,0 +1,70 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, form, fieldset{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+ol{
+    margin-left: 1.4em;
+    list-style: decimal;/* */
+}
+ul{
+    margin-left: 1.4em;
+    list-style: square;
+}
+img{
+    border:0;
+}
+/* FIN RESET CSS*/
+#principal{
+    float: left;
+    width: 580px;
+}
+#lateral{
+    margin-left: 600px; /*se queda a la derecha de principal por el float de principal y con 20px de separción al poner 600px - 580px de principal*/
+    padding: 15px;
+    background-color: #ded0f1;
+    text-align: justify;
+    /*margin-top: 0px;*/
+}
+body{
+    color: #B1967C;
+    font-family: "Palatino Linotype", "Book Antiqua", Palantino, serif;
+    padding-top: 100px;
+    background: #ded0f1 url(images/fondo_cuerpo.png) repeat-x;
+    width: 800px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 3em;
+    font-family: "Arial Black", Gadget, sans-serif;
+    margin-top: 10px;
+}
+h2{
+    font-size: 2.2em;
+    color: #600;
+    margin-bottom: 5px;
+}
+#principal h2{
+    color: #E8A064;
+    border-bottom: 3px white solid;
+    background-image: url(images/flor.png);
+    background-repeat: no-repeat;
+    padding: 0 0 2px 60px;
+}
+#principal p{
+    color: #616161;
+    font-family: "Palatino Linotype", "Book Antiqua", Palantino, serif;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    margin-left: 70px;
+    margin-top: 7px;
+    text-align: justify;
+}
+#principal .introduccion{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0px;
+    margin-bottom: 25px;
+    font-size: 1.2em;
+}
